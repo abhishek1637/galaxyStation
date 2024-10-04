@@ -1,0 +1,25 @@
+{
+  "name": "galaxystation",
+  "private": true,
+  "workspaces": [
+    "BFF/packages/*",
+    "UI/packages/*"
+  ],
+  "scripts": {
+    "create-bff-package": "node ./scripts/create-bff-package.js",
+    "create-ui-package": "node ./scripts/create-ui-package.js"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.7",
+    "@babel/preset-env": "^7.25.7",
+    "@babel/preset-react": "^7.25.7",
+    "autoprefixer": "^10.4.20",
+    "babel-loader": "^9.2.1",
+    "css-loader": "^7.1.2",
+    "style-loader": "^4.0.0",
+    "tailwindcss": "^3.4.13",
+    "webpack": "^5.95.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.1.0"
+  }
+}
