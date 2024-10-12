@@ -11,7 +11,7 @@ rl.question('Enter the problem name: ', (fileName) => {
   rl.question('Enter the problem related to (e.g., Array, Tree, etc.): ', (problemType) => {
     rl.question('Enter the problem description: ', (problemDescription) => {
 
-      const problemPath = path.join(__dirname, '..', 'DSA', problemType);
+      const problemPath = path.join(__dirname, '..', 'DSA/Problems', problemType);
       if (!fs.existsSync(problemPath)) {
         fs.mkdirSync(problemPath, { recursive: true });
       }
