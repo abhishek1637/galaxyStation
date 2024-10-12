@@ -21,7 +21,7 @@ rl.question('Enter the problem name: ', (fileName) => {
       if (fs.existsSync(filePath)) {
         console.error(`File ${fileName}.cpp already exists in ${problemType}`);
       } else {
-        const fileContent = `/**\n * ${problemDescription}\n */\n\n#include<iostream>\nusing namespace std;\n\nint main() {\n  // Solution here\n  return 0;\n}`;
+        const fileContent = `/**\n * ${problemDescription}\n*/\n\n#include<iostream>\nusing namespace std;\n\nint main() {\n  // Solution here\n  return 0;\n}`;
         fs.writeFileSync(filePath, fileContent);
         console.log(`DSA problem file ${fileName}.cpp created successfully under ${problemType}!`);
       }
