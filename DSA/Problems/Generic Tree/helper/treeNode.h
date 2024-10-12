@@ -1,3 +1,6 @@
+#ifndef TREENODE_H
+#define TREENODE_H
+
 #include <vector>
 using namespace std;
 
@@ -18,3 +21,5 @@ class TreeNode {
             }
         }
 };
+
+#endif

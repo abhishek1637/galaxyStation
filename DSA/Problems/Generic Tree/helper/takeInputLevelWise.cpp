@@ -1,7 +1,7 @@
 #include <iostream>
 #include <queue>
 
-#include "treeNode.cpp"
+#include "treeNode.h"
 
 using namespace std;
 
