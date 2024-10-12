@@ -22,7 +22,7 @@ rl.question('Enter the file name: ', (fileName) => {
         process.exit(1);
       }
 
-      const fileContent = `/**\n * ${problemDescription}\n */\n\n#include<iostream>\nusing namespace std;\n\nint main() {\n  // Solution here\n  return 0;\n}`;
+      const fileContent = `/**\n * ${problemDescription}\n */\n\n#include <iostream>\nusing namespace std;\n`;
       fs.writeFileSync(filePath, fileContent);
 
       console.log(`DSA problem file ${fileName}.cpp created successfully under ${problemType}!`);
