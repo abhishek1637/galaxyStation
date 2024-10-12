@@ -9,6 +9,7 @@
     "create-bff-package": "node ./scripts/create-bff-package.js",
     "create-cdk-package": "node ./scripts/create-cdk-package.js",
     "create-dsa-problem": "node ./scripts/create-dsa-problem.js",
+    "create-dsa-theory": "node ./scripts/create-dsa-theory.js",
     "create-ui-package": "node ./scripts/create-ui-package.js"
   },
   "devDependencies": {
