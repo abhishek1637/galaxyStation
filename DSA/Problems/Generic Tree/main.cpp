@@ -4,6 +4,7 @@
 #include "helper/takeInputLevelWise.cpp"
 
 #include "countNodes.cpp"
+#include "sum_of_nodes.cpp"
 
 using namespace std;
 
@@ -13,7 +14,8 @@ int main() {
     preOrder(root);
     cout << endl;
 
-    cout << "Total number of nodes in tree: " <<  countNodes(root);
+    cout << "Total number of nodes in tree: " <<  countNodes(root) << endl;
+    cout << "Sum of nodes : " << sumOfNodes(root);
 
     cout << endl;
 }
